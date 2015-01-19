@@ -1,0 +1,171 @@
+# Development Files
+.venv
+env/
+
+#Vagrant Folder
+.vagrant
+
+# Node
+node_modules
+
+# Bower
+.bower-cache
+.bower-registry
+tmp-static/
+
+
+*~
+
+cache/
+
+build/
+
+docs/_build/
+
+#django static files
+static/
+
+
+# misc directories
+tmp/*
+data_files
+/src/
+# python compiled
+*.pyc
+*.pyo
+
+# log files
+*log
+logs/*
+
+# working files
+*.swp
+*.swo
+
+# backup
+*.bk
+*.bkup
+
+# dirs with gitignore
+!.gitignore
+
+
+# tmp files
+*.orig
+*.backup
+*.earle
+
+# old dirs
+*.old/
+
+# ignore local_settings.py
+local_settings.py
+
+# SVN dirs
+.svn/*
+
+*.class
+.DS_Store
+*.sqlite3
+
+*sublime-project*
+*.sublime-workspace
+*.ropeproject
+
+
+# Eclipse project file
+.pydevproject
+.project
+.settings
+
+# Virtualenv Files
+lib/
+lib64
+man/
+include/
+bin/activate
+bin/activate.csh
+bin/activate.fish
+bin/activate_this.py
+bin/bpython*
+bin/django-admin.py
+bin/easy_install
+bin/easy_install-2.6
+bin/pip
+bin/pip-2.6
+bin/python
+bin/python2.6
+bin/camqadm
+bin/celerybeat
+bin/celeryctl
+bin/celeryd
+bin/celeryd-multi
+bin/celeryev
+bin/djcelerymon
+bin/gdb.py
+bin/haystack
+bin/haystack-dump
+bin/haystack-gui
+bin/haystack-pointer-merge
+bin/pilconvert.py
+bin/pildriver.py
+bin/pilfile.py
+bin/pilfont.py
+bin/pilprint.py
+bin/strace.py
+share/
+bin/easy_install-2.7
+bin/pip-2.7
+bin/sphinx*
+pipe/
+bin/pygmentize
+bin/rst*
+bin/tilestache-render.py
+bin/tilestache-seed.py
+bin/tilestache-server.py
+bin/virtualenv
+bin/python2.7
+bin/celery
+
+.Python
+
+bin/coverage
+bin/virtualenv
+.coverage
+local
+
+
+# these two files are needed, but they are symbolic links created
+# by the bonesaw_bin/change_solr_links.sh script
+solr/example/solr/conf/schema.xml
+solr/example/solr/conf/solrconfig.xml
+bin/tilestache*
+bin/virtualenv
+bin/python2.7
+.Python
+
+TileStache.cfg
+
+
+bin/ipcluster
+bin/ipcontroller
+bin/ipengine
+bin/iplogger
+bin/iptest
+bin/ipython
+bin/ipython-qtconsole
+bin/irunner
+bin/pycolor
+bin/
+cluster_cache/
+
+negative_matches/data/*.bitmap
+
+*.ipynb
+
+# JetBrains IDEs
+.idea/
+
+# Test Directory
+reports/
+
