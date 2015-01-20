@@ -12,7 +12,7 @@ var APP = React.createClass({
 	},
 	render:function(){
 		return (
-			<div>
+			<div className="container-fluid">
 				<h1 onClick={this.handleClick}>Django React Flux Portfolio App</h1>
 				<Portfolio/>
 			</div>

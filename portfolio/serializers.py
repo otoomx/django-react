@@ -5,7 +5,7 @@ from .models import Portfolio, Position
 class PositionSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Position
-        fields = ( 'symbol', 'quantity' ,'cost_per_share')
+        fields = ( 'id', 'symbol', 'quantity' ,'cost_per_share')
 
 class PortfolioSerializer(serializers.ModelSerializer):
     #  facets = FacetSerializer(many=True, read_only=True, 

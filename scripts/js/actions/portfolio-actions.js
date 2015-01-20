@@ -14,6 +14,14 @@ var PortfolioActions = {
 			actionType:AppConstants.SET_PORTFOLIOS,
 			data:data
 		})
+	},
+	addSymbol: function(symbol,qty,cost){
+		AppDispatcher.handelViewAction({
+			actionType:AppConstants.ADD_SYMBOL,
+			symbol:symbol,
+			qty:qty,
+			cost:cost
+		});
 	}
 }
 
