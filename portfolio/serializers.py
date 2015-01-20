@@ -12,4 +12,4 @@ class PortfolioSerializer(serializers.ModelSerializer):
     positions = PositionSerializer(many=True, read_only=True)
     class Meta:
         model = Portfolio
-        fields = ( 'name', 'create_date', 'positions')
+        fields = ('id', 'name', 'create_date', 'positions')

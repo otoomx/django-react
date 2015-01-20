@@ -1,0 +1,5 @@
+module.exports = {
+	
+	SET_PORTFOLIO:'SET_PORTFOLIO',
+	GET_PORTFOLIO:'GET_PORTFOLIO'
+};

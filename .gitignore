@@ -13,7 +13,7 @@ node_modules
 .bower-registry
 tmp-static/
 
-
+portfolio/static
 *~
 
 cache/
